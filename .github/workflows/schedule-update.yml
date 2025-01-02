@@ -3,7 +3,7 @@ name: schedule-update
 on:
   schedule:
     # 每小时整点执行
-    - cron: "0 * * * *"
+    - cron: "*/15 * * * *"
 
 
 jobs:
