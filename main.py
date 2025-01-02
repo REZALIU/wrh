@@ -19,7 +19,7 @@ def fasong(cont):
     post_data = {
         'msgtype': 'text',
         'text': {
-            "content":time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+"微博新增实时上升热搜"+"\n"+"每小时更新"+"\n"+"\n"+extracted_texts_newline_separated
+            "content":time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+"微博新增实时上升热搜"+"\n"+"每15分钟更新"+"\n"+"\n"+extracted_texts_newline_separated
         }}
     headers = {
         'Content-Type': 'application/json'
