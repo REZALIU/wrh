@@ -117,7 +117,7 @@ def run():
     readme = generate_readme(new_search_items)
     fasong(readme) 
 
-    save_readme(readme)
+    #save_readme(readme)
     
 
     # 判断当天的归档文件是否已存在，若存在则读取已有内容
