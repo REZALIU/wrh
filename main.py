@@ -115,7 +115,7 @@ def run():
 
     # 生成更新后的readme内容
     readme = generate_readme(new_search_items)
-    fasong(readme) 
+    #fasong(readme) 
 
     #save_readme(readme)
     
