@@ -10,7 +10,7 @@ import time
 
 def fasong(cont):
     #print(cont)
-    pattern = r'\[([^]]*(南京|无锡|徐州|常州|苏州|南通|连云港|淮安|盐城|扬州|镇江|泰州|宿迁|江苏|中国)[^]]*)\]'
+    pattern = r'\[([^]]*(南京|无锡|徐州|常州|苏州|南通|连云港|淮安|盐城|扬州|镇江|泰州|宿迁|江苏|鼓楼)[^]]*)\]'
     # 使用findall方法查找所有匹配的内容
     matches = re.findall(pattern, cont)
     extracted_texts_newline_separated = "\n".join(matches)
